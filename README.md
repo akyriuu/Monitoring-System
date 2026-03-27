@@ -1,4 +1,4 @@
-### Web Service Monitor
+### --- Web Service Monitor ---
 
 A real-time monitoring dashboard built to track the latency and availability of popular web services. This project focuses on TypeScript best practices, asynchronous programming, and clean UI state management.
 
@@ -15,9 +15,9 @@ Visual Status Indicators:
 
 Green: Low latency (<100ms)
 
-Yellow: Moderate latency (100ms - 250ms)
+Yellow: Moderate latency (>200ms)
 
-Red: High latency or Offline (>250ms)
+Red: High latency or Offline (>400ms)
 
 ### Modern Tooling:
 
