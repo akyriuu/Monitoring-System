@@ -1,5 +1,6 @@
-### --- Web Service Monitor ---
+### What does this keep track of?
 
+ 
 A real-time monitoring dashboard built to track the latency and availability of popular web services. This project focuses on TypeScript best practices, asynchronous programming, and clean UI state management.
 
 ### Real-time Latency Tracking:
@@ -18,6 +19,9 @@ Green: Low latency (<100ms)
 Yellow: Moderate latency (>200ms)
 
 Red: High latency or Offline (>400ms)
+
+
+https://github.com/user-attachments/assets/92ed5876-68f2-4f8e-a654-3a2660b437e7
 
 ### Modern Tooling:
 
