@@ -21,7 +21,7 @@ Yellow: Moderate latency (>200ms)
 Red: High latency or Offline (>400ms)
 
 
-https://github.com/user-attachments/assets/92ed5876-68f2-4f8e-a654-3a2660b437e7
+<img width="800" height="392" alt="ezgif-4dd72e0f8e1daa83" src="https://github.com/user-attachments/assets/a5e736ae-b7e6-4a58-aa8d-c0b485d077cf" />
 
 ### Modern Tooling:
 
