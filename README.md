@@ -1,3 +1,5 @@
+Live at: https://akyriuu.github.io/Monitoring-System/
+
 ### What does this keep track of?
 
  
@@ -6,6 +8,8 @@ A real-time monitoring dashboard built to track the latency and availability of 
 ### Real-time Latency Tracking:
 
 Uses the Fetch API with no-cors mode to estimate response times (ping) for major platforms like Google, Instagram, and Netflix.
+
+> Latency values are estimates — browser CORS restrictions prevent true ping; actual response times may differ.
 
 ### Dynamic UI:
 
