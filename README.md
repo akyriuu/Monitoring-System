@@ -14,7 +14,7 @@ Check the live version here: https://akyriuu.github.io/Monitoring-System/
 <img width="800" height="392" alt="ezgif-4dd72e0f8e1daa83" src="https://github.com/user-attachments/assets/7bdd3a3a-f29f-49c6-92e3-8ead7eaea55c" />
 
 
-**Now** **Now** — May 05, 2026
+**Now** — May 05, 2026
 
 
 <img width="800" height="332" alt="ezgif-65b01c5157fcdebd" src="https://github.com/user-attachments/assets/06f1fd18-5bbf-4532-b8cd-eef8f160a8b9" />
