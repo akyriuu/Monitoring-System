@@ -1,39 +1,54 @@
-Live at: https://akyriuu.github.io/Monitoring-System/
+# Online? — Web Service Monitor
 
-### What does this keep track of?
+A real-time latency dashboard that tracks the availability of popular web services. Built with TypeScript, async programming, and pure DOM manipulation — no frameworks, no dependencies.
 
- 
-A real-time monitoring dashboard built to track the latency and availability of popular web services. This project focuses on TypeScript best practices, asynchronous programming, and clean UI state management.
+## Live Demo
 
-### Real-time Latency Tracking:
+Check the live version here: [link]
 
-Uses the Fetch API with no-cors mode to estimate response times (ping) for major platforms like Google, Instagram, and Netflix.
+## Design Evolution
 
-> Latency values are estimates — browser CORS restrictions prevent true ping; actual response times may differ.
+**Initial design**
+![initial design gif]
 
-### Dynamic UI:
+**Now**
 
-Automatically renders service cards and updates status indicators using pure DOM manipulation.
-Visual Status Indicators:
+> Live at the link above.
 
-### Features smooth CSS transitions between status states:
+## Features
 
-Green: Low latency (<100ms)
+- **Real-time ping** via Fetch API with `no-cors` mode
+- **Dynamic cards** rendered and updated automatically
+- **Color-coded status** with smooth CSS transitions:
+  - 🟢 Green — low latency (< 600ms)
+  - 🟡 Yellow — moderate latency (600ms – 1200ms)
+  - 🔴 Red — high latency or offline (> 1200ms)
+- **Auto-refresh** every 15 seconds
 
-Yellow: Moderate latency (>200ms)
+## Stack
 
-Red: High latency or Offline (>400ms)
-
-
-<img width="800" height="392" alt="ezgif-4dd72e0f8e1daa83" src="https://github.com/user-attachments/assets/a5e736ae-b7e6-4a58-aa8d-c0b485d077cf" />
-
-### Modern Tooling:
-
-Configured with a strict TypeScript environment, utilizing a src/build directory structure for optimized compilation.
+- TypeScript (strict mode)
+- Vanilla DOM
+- CSS custom properties + `clamp()` for responsive layout
+- `src/` → compiled to `build/` via `tsc`
 
 ## How to run
 
-1. Clone the repository.
-2. Run `npm install` (if using any packages) or simply open the terminal.
-3. Start the TypeScript compiler: `tsc -w`.
-4. Open `Monitoring.html` with Live Server.
+1. Clone the repository
+2. Start the TypeScript compiler in watch mode:
+   ```bash
+   tsc -w
+   ```
+3. Open `index.html` with Live Server
+
+## Adding services
+
+Edit the `apps` array in `src/Realtime.ts`:
+
+```typescript
+{ name: "Vercel", id: "Vercel", url: "https://www.vercel.com" },
+```
+
+---
+
+Made by [Akyriuu](https://github.com/akyriuu)
