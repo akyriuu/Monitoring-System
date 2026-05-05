@@ -132,5 +132,5 @@ async function updateStatus(): Promise<void> {
 window.addEventListener("DOMContentLoaded", () => {
   renderInterface();
   updateStatus();
-  setInterval(updateStatus, 3_000);
+  setInterval(updateStatus, 10_000);
 });
